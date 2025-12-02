@@ -12,6 +12,10 @@ on:
 jobs:
   build:
 
+    defaults:
+      run:
+        working-directory: ./2025
+
     runs-on: ubuntu-latest
 
     steps:
