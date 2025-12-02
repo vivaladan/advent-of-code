@@ -1,14 +1,7 @@
 ﻿namespace AdventOfCode2025.Tests;
 
-public class Day1Tests
+public class Day1Tests : TestBase
 {
-    private static string ProjectDir => Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", ".."));
-    private static string[] LoadLinesFromFile(string filename) =>
-        File.ReadAllLines(Path.Combine(ProjectDir, filename))
-            .Where(c => !string.IsNullOrWhiteSpace(c))
-            .Select(c => c.Trim())
-            .ToArray();
-
     [Fact]
     public void Day1_Part1_Sample()
     {
