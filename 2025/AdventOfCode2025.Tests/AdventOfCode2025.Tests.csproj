@@ -22,4 +22,19 @@
     <ProjectReference Include="..\AdventOfCode2025\AdventOfCode2025.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Day1Input.txt">
+      <DependentUpon>Day1Tests.cs</DependentUpon>
+    </None>
+    <None Update="Day2Input.txt">
+      <DependentUpon>Day2Tests.cs</DependentUpon>
+    </None>
+    <None Update="Day3Input.txt">
+      <DependentUpon>Day3Tests.cs</DependentUpon>
+    </None>
+    <None Update="Day4Input.txt">
+      <DependentUpon>Day4Tests.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+
 </Project>
