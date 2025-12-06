@@ -38,6 +38,9 @@
     <None Update="Day5Input.txt">
       <DependentUpon>Day5Tests.cs</DependentUpon>
     </None>
+    <None Update="Day6Input.txt">
+      <DependentUpon>Day6Tests.cs</DependentUpon>
+    </None>
   </ItemGroup>
 
 </Project>
